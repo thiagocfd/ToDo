@@ -99,7 +99,6 @@ C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\scopedc
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\ToDo.TagHelpers.input.cache
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\ToDo.TagHelpers.output.cache
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\ToDo.RazorCoreGenerate.cache
-C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -232,3 +231,7 @@ C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\ToDo\obj\Debug\net5.0\To
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\ToDo\obj\Debug\net5.0\ToDo.genruntimeconfig.cache
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\Razor\Views\Home\Create.cshtml.g.cs
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\Razor\Views\Shared\_LayoutIES.cshtml.g.cs
+C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\Razor\Views\Home\Delete.cshtml.g.cs
+C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\Razor\Views\Home\Details.cshtml.g.cs
+C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\Razor\Views\Home\Edit.cshtml.g.cs

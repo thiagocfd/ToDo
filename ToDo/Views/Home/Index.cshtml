@@ -1,7 +1,10 @@
-﻿@model IEnumerable<ToDo.Models.Tarefa>
+﻿
+@model IEnumerable<ToDo.Models.Tarefa>
+
 @{
-    ViewData["Title"] = "ToDo";
+    ViewData["Title"] = "Index";
 }
+
 <h1>Index</h1>
 
 <p>
@@ -13,19 +16,27 @@
             <th>
                 @Html.DisplayNameFor(model => model.ToDo)
             </th>
-
+            <th>
+                @Html.DisplayNameFor(model => model.TarefaID)
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ToDo)
-                </td>
-
-            </tr>
-        }
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ToDo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TarefaID)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.TarefaID  }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.TarefaID  }) |
+                @Html.ActionLink("Delete", "Delete", new {  id=item.TarefaID  })
+            </td>
+        </tr>
+}
     </tbody>
 </table>

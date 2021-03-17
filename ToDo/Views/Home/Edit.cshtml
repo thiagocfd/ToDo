@@ -1,0 +1,38 @@
+﻿@model ToDo.Models.Tarefa
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Tarefa</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ToDo" class="control-label"></label>
+                <input asp-for="ToDo" class="form-control" />
+                <span asp-validation-for="ToDo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TarefaID" class="control-label"></label>
+                <input asp-for="TarefaID" class="form-control" />
+                <span asp-validation-for="TarefaID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
