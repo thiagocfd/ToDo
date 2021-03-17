@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thiago Dourado\\Documents\\TI\\Projetos\\ToDo\\ToDo\\ToDo.csproj": {}
+    "C:\\Users\\Thiago Dourado\\Documents\\TI\\Projetos\\ToDo\\ToDo\\ToDo\\ToDo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thiago Dourado\\Documents\\TI\\Projetos\\ToDo\\ToDo\\ToDo.csproj": {
+    "C:\\Users\\Thiago Dourado\\Documents\\TI\\Projetos\\ToDo\\ToDo\\ToDo\\ToDo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thiago Dourado\\Documents\\TI\\Projetos\\ToDo\\ToDo\\ToDo.csproj",
+        "projectUniqueName": "C:\\Users\\Thiago Dourado\\Documents\\TI\\Projetos\\ToDo\\ToDo\\ToDo\\ToDo.csproj",
         "projectName": "ToDo",
-        "projectPath": "C:\\Users\\Thiago Dourado\\Documents\\TI\\Projetos\\ToDo\\ToDo\\ToDo.csproj",
+        "projectPath": "C:\\Users\\Thiago Dourado\\Documents\\TI\\Projetos\\ToDo\\ToDo\\ToDo\\ToDo.csproj",
         "packagesPath": "C:\\Users\\Thiago Dourado\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thiago Dourado\\Documents\\TI\\Projetos\\ToDo\\ToDo\\obj\\",
+        "outputPath": "C:\\Users\\Thiago Dourado\\Documents\\TI\\Projetos\\ToDo\\ToDo\\ToDo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

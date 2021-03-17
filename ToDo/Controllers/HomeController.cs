@@ -17,10 +17,18 @@ namespace ToDo.Controllers
         {
             _logger = logger;
         }
-
+        private static IList<Tarefa> tarefas =
+            new List<Tarefa>()
+            {
+                new Tarefa()
+                {
+                    ToDo = "Estudar .NET",
+                    TarefaID = 1
+                }
+            };
         public IActionResult Index()
         {
-            return View();
+            return View(tarefas.OrderBy(i => i.TarefaID));
         }
 
         public IActionResult Privacy()
