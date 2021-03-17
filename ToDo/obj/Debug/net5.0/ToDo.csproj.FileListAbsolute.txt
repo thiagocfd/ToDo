@@ -114,7 +114,6 @@ C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\ToDo.dl
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\ref\ToDo.dll
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\ToDo.pdb
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\ToDo.genruntimeconfig.cache
-C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\Razor\Views\Tarefa\Index.cshtml.g.cs
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\ToDo\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\ToDo\bin\Debug\net5.0\appsettings.json
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\ToDo\bin\Debug\net5.0\ToDo.exe
@@ -231,3 +230,5 @@ C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\ToDo\obj\Debug\net5.0\To
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\ToDo\obj\Debug\net5.0\ref\ToDo.dll
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\ToDo\obj\Debug\net5.0\ToDo.pdb
 C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\ToDo\obj\Debug\net5.0\ToDo.genruntimeconfig.cache
+C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\Razor\Views\Home\Create.cshtml.g.cs
+C:\Users\Thiago Dourado\Documents\TI\Projetos\ToDo\ToDo\obj\Debug\net5.0\Razor\Views\Shared\_LayoutIES.cshtml.g.cs

@@ -31,6 +31,19 @@ namespace ToDo.Controllers
             return View(tarefas.OrderBy(i => i.TarefaID));
         }
 
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Tarefa tarefa)
+        {
+            tarefas.Add(tarefa);
+            tarefa.TarefaID = tarefas.Select(i => i.TarefaID).Max() + 1;
+            return RedirectToAction("Index");
+        }
         public IActionResult Privacy()
         {
             return View();
