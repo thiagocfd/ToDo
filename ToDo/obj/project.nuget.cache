@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6sq+lcgdxYxTLndrXeI1DpSDT0W+v7VDof03OvqTLaIDDf3sVAZrwfqhiVfQhUqeKmpqfYkRIcFUl463y1VRHQ==",
+  "dgSpecHash": "soohcUfCs/fJ0nDyQt3ZyMaCxtXsFdDNU6Z9oCh1JqXchaNwXskkipKH3TesW3ANl/uyZNFDwyFqvP8DaaEWzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thiago Dourado\\Documents\\TI\\Projetos\\ToDo\\ToDo\\ToDo\\ToDo.csproj",
+  "projectFilePath": "C:\\Users\\Thiago Dourado\\Documents\\TI\\Projetos\\ToDo\\ToDo\\ToDo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thiago Dourado\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Thiago Dourado\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
