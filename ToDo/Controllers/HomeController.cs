@@ -44,9 +44,28 @@ namespace ToDo.Controllers
             tarefa.TarefaID = tarefas.Select(i => i.TarefaID).Max() + 1;
             return RedirectToAction("Index");
         }
+
+        public ActionResult Edit(long id)
+        {
+            return View(tarefas.Where(i => i.TarefaID == id).First());
+        }
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public ActionResult Details(long id)
+        {
+            return View(tarefas.Where(i => i.TarefaID == id).First());
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(Tarefa tarefa)
+        {
+            tarefas.Remove(tarefas.Where(i => i.TarefaID == tarefa.TarefaID).First());
+            tarefas.Add(tarefa);
+            return RedirectToAction("Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
